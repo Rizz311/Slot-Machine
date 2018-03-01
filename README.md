@@ -7,7 +7,7 @@ This is a jquery project that I made in class for which utilizes a few skills th
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript,JQuery, Arrays, and If Else.
+**Tech used:** HTML, CSS, JavaScript, JQuery, Arrays, and If Else.
 
 My HTML contains sections, img tags, and elements to display text. I gave it styling in the CSS to make it stand out a little more. In my javascript I use arrays to cycle thru the pictures with a random generator to mix up the images and keep them cycling around and have a betting system in place. I have a jackpot method test your luck and get some serious loot.
 
