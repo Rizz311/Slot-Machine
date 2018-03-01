@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+			<meta name="viewport"content="width=device-width, initial-scale=1">
+			<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+		<title>Slot Machine</title>
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	</head>
+	<body>
+		<header>
+			<h1>Mean but Kind Tiger Slot!</h1>
+		</header>
+		<section class="main">
+				<section class="leftSlot">
+					<img id="display1" src="img/gem.jpg" alt="Slot Image">
+				</section>
+				<section class="middleSlot">
+					<img id="display2" src="img/cherries.png" alt="Slot Image">
+				</section>
+				<section id="rightSlot">
+					<img id="display3" src="img/star.png" alt="Slot Image">
+				</section>
+		</section>
+		<section>
+			<img id="handle" src="img/handle.png" alt="Slot Handle">
+		</section>
+		<section class="money">
+			<h3 id="money">Money:</h3><span>$</span><span id="wallet"></span>
+			<h3 id="bet">Bet:</h3><span>$</span><span id="ante">0</span>
+			<h3 id="jackpot">Jackpot:</h3><span>$</span><span id="house">1000</span>
+		</section>
+		<section class="buttons">
+			<button id="one" type="button" name="button">$1 Bet!</button>
+			<button id="five" type="button" name="button">$5 Bet!</button>
+		</section>
+	<script src="js/main.js"></script>
+	</body>
+</html>
